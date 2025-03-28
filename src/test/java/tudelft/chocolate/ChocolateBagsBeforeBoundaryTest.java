@@ -16,13 +16,13 @@ public class ChocolateBagsBeforeBoundaryTest {
         int result = new ChocolateBags().calculate(5, 3, 10);
         Assertions.assertEquals(0, result);
     }
-
+//el test funciona bien es el ejercicio 1
     @Test
     public void bigAndSmallBars() {
         int result = new ChocolateBags().calculate(5, 3, 17);
         Assertions.assertEquals(2, result);
     }
-
+    //el test funciona bien es el ejercicio 1
     @Test
     public void onlySmallBars() {
         int result = new ChocolateBags().calculate(4, 2, 3);
