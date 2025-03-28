@@ -37,3 +37,4 @@ public class RomanNumeralTestWithBeforeEach {
         Assertions.assertEquals(44, result);
     }
 }
+//si funcionan debido a que si cambiamos el numero de cada uno si da error si no coincide con el romano
